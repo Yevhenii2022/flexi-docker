@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/main.js */ \"./src/js/main.js\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\n\n\n//# sourceURL=webpack://webpack_theme/./src/index.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/main.js */ \"./src/js/main.js\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\r\n\n\n//# sourceURL=webpack://webpack_theme/./src/index.js?\n}");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js
   \*******************************************/
 /***/ (() => {
 
-eval("{jQuery(\"img:not([title])\").each(function () {\n  if (jQuery(this).attr(\"alt\") !== \"\")\n    jQuery(this).attr(\"title\", jQuery(this).attr(\"alt\"));\n});\n\njQuery(\"img:not([alt])\").each(function () {\n  if (jQuery(this).attr(\"title\") !== \"\")\n    jQuery(this).attr(\"alt\", jQuery(this).attr(\"title\"));\n});\n\n\n//# sourceURL=webpack://webpack_theme/./src/js/libraries/add-alt-title.js?\n}");
+eval("{jQuery(\"img:not([title])\").each(function () {\r\n  if (jQuery(this).attr(\"alt\") !== \"\")\r\n    jQuery(this).attr(\"title\", jQuery(this).attr(\"alt\"));\r\n});\r\n\r\njQuery(\"img:not([alt])\").each(function () {\r\n  if (jQuery(this).attr(\"title\") !== \"\")\r\n    jQuery(this).attr(\"alt\", jQuery(this).attr(\"title\"));\r\n});\r\n\n\n//# sourceURL=webpack://webpack_theme/./src/js/libraries/add-alt-title.js?\n}");
 
 /***/ }),
 
@@ -47,7 +47,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ad
   \****************************************/
 /***/ (() => {
 
-eval("{document.addEventListener(\"DOMContentLoaded\", function () {\n  var phoneInputs = document.querySelectorAll('input[type=\"tel\"]');\n\n  if (phoneInputs) {\n    phoneInputs.forEach(function (phoneInput) {\n      var phoneMask = IMask(phoneInput, {\n        mask: \"+38(000)000-00-00\",\n      });\n    });\n  }\n});\n\n\n//# sourceURL=webpack://webpack_theme/./src/js/libraries/phone-mask.js?\n}");
+eval("{document.addEventListener(\"DOMContentLoaded\", function () {\r\n  var phoneInputs = document.querySelectorAll('input[type=\"tel\"]');\r\n\r\n  if (phoneInputs) {\r\n    phoneInputs.forEach(function (phoneInput) {\r\n      var phoneMask = IMask(phoneInput, {\r\n        mask: \"+38(000)000-00-00\",\r\n      });\r\n    });\r\n  }\r\n});\r\n\n\n//# sourceURL=webpack://webpack_theme/./src/js/libraries/phone-mask.js?\n}");
 
 /***/ }),
 
